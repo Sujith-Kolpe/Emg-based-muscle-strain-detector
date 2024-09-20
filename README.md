@@ -56,7 +56,7 @@ The system detects electrical muscle activity, helping monitor muscle strain and
    - Power the EMG sensor using two 9V batteries.
 
 2. **ESP32 Firmware:**
-   - Open the `emg_detector.ino` file in Arduino IDE.
+   - Open the `code.ino` file in Arduino IDE.
    - Upload the code to the ESP32.
 
 3. **Node.js Server:**
@@ -65,7 +65,7 @@ The system detects electrical muscle activity, helping monitor muscle strain and
    - Run `node server.js` to start the server.
 
 4. **Flutter App:**
-   - Navigate to the `flutter_app` directory.
+   - Navigate to the `flutter_app` directory and save `main.dart` in the lib file.
    - Run `flutter pub get` to install dependencies.
    - Run the app on an Android/iOS device or an emulator.
   
@@ -75,4 +75,4 @@ Feel free to fork this project and submit pull requests for any improvements or 
 ## **License**
 This project is licensed under the MIT License.
 
-
+For help getting started with Flutter development, view the online documentation, which offers tutorials, samples, guidance on mobile development, and a full API reference.
